@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+   width: 100%;
+   height: 100vh;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Landing.png);
+   background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.logopng{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin-right: 20%;
+    padding: 10px 20px;
+    background: rgb(81, 95, 139);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.logopng:hover{
+    background: transparent;
+    border-bottom: solid rgb(81, 95, 139); 
+}
+
+.navbar a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+
+.navbar a:hover{
+    border-bottom:  2px solid rgb(81, 95, 139); 
+}
+
+.signup a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgb(81, 95, 139);
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.signup a:hover{
+    background: transparent;
+    border-bottom: 2px solid rgb(81, 95, 139);
+}
+
+.section-bar{
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-bar span{
+    letter-spacing: 4px;
+    color: whitesmoke;
+}
+
+.section-bar h1{
+   font-size: 3.3rem;
+   color: whitesmoke;
+   margin-bottom: 30px;
+}
+
+.section-bar a{
+    text-decoration: none;
+    background:rgb(81, 95, 139);
+    color: whitesmoke;
+    padding: 10px 25px;
+    letter-spacing: 4px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.section-bar a:hover{
+    background: transparent;
+    border-bottom: 2px solid rgb(55, 66, 121); ;
+}
+
+
